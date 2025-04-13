@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- THIS IS HEADER PART -->
+    <header>
+      <h1>WELCOME TO SHORT TECH QUIZ</h1>
+      <div class="form">
+        <input
+          type="text"
+          class="name enter"
+          placeholder="enter full name"
+          required
+        />
+        <input
+          type="email"
+          class="email enter"
+          placeholder="enter email"
+          email
+        />
+        <input
+          type="password"
+          class="password enter"
+          placeholder="enter password"
+          required
+        />
+        <button class="register">register</button>
+        <button class="play start-game">Start Quiz</button>
+      </div>
+    </header>
+
+    <!-- MAIN PART -->
+    <main>
+      <div class="name-part">
+        <p class="taker">quiz taker name</p>
+        <p class="score">score: 0</p>
+        <p class="progress">
+          Question <span class="current-q">1</span> of
+          <span class="total-q">10</span>
+        </p>
+      </div>
+      <section class="container hiding">
+        <div class="quest-1 questions">
+          <h3 class="question">1. What does HTML stand for?</h3>
+          <ul class="option">
+            <li class="choice">
+              <button class="choose correct">Hyper Text Markup Language</button>
+            </li>
+            <li class="choice">
+              <button class="choose">High Tech Modern Language</button>
+            </li>
+            <li class="choice">
+              <button class="choose">
+                Hyperlinks and Text Markup Language
+              </button>
+            </li>
+            <li class="choice">
+              <button class="choose">Home Tool Markup Language</button>
+            </li>
+          </ul>
+        </div>
+        <div class="quest-2 questions">
+          <h3 class="question">
+            2. Which language is used for styling web pages?
+          </h3>
+          <ul class="option">
+            <li class="choice">
+              <button class="choose">JavaScript</button>
+            </li>
+            <li class="choice"><button class="choose">Python</button></li>
+            <li class="choice"><button class="choose correct">CSS</button></li>
+            <li class="choice"><button class="choose">SQL</button></li>
+          </ul>
+        </div>
+        <div class="quest-3 questions">
+          <h3 class="question">
+            3. Which keyword is used to declare a variable in JavaScript?
+          </h3>
+          <ul class="option">
+            <li class="choice">
+              <button class="choose">var</button>
+            </li>
+            <li class="choice">
+              <button class="choose">let</button>
+            </li>
+            <li class="choice">
+              <button class="choose">const</button>
+            </li>
+            <li class="choice">
+              <button class="choose correct">All of the above</button>
+            </li>
+          </ul>
+        </div>
+        <div class="quest-4 questions">
+          <h3 class="question">4. What does SQL stand for?</h3>
+          <ul class="option">
+            <li class="choice">
+              <button class="choose correct">Structured Query Language</button>
+            </li>
+            <li class="choice">
+              <button class="choose">Simple Query Logic</button>
+            </li>
+            <li class="choice">
+              <button class="choose">Sequential Query Language</button>
+            </li>
+            <li class="choice">
+              <button class="choose">Server Query Lis</button>
+            </li>
+          </ul>
+        </div>
+        <div class="quest-5 questions">
+          <h3 class="question">
+            5. What is the main purpose of an index in a database?
+          </h3>
+          <ul class="option">
+            <li class="choice">
+              <button class="choose">To store backup data</button>
+            </li>
+            <li class="choice">
+              <button class="choose correct">To speed up data retrieval</button>
+            </li>
+            <li class="choice">
+              <button class="choose">To encrypt data</button>
+            </li>
+            <li class="choice">
+              <button class="choose">To compress data</button>
+            </li>
+          </ul>
+        </div>
+        <div class="quest-6 questions">
+          <h3 class="question">6. What does HTTP stand for?</h3>
+          <ul class="option">
+            <li class="choice">
+              <button class="choose">High-Level Text Protocol</button>
+            </li>
+            <li class="choice">
+              <button class="choose correct">
+                HyperText Transfer Protocol
+              </button>
+            </li>
+            <li class="choice">
+              <button class="choose">Home Transfer Text Protocol</button>
+            </li>
+            <li class="choice">
+              <button class="choose">Hyperlink Transfer Process</button>
+            </li>
+          </ul>
+        </div>
+        <div class="quest-7 questions">
+          <h3 class="question">
+            7. Which protocol is used for secure web communication?
+          </h3>
+          <ul class="option">
+            <li class="choice"><button class="choose">HTTP</button></li>
+            <li class="choice">
+              <button class="choose correct">HTTPS</button>
+            </li>
+            <li class="choice"><button class="choose">FTP</button></li>
+            <li class="choice"><button class="choose">SMTP</button></li>
+          </ul>
+        </div>
+        <div class="quest-8 questions">
+          <h3 class="question">8. What does VPN stand for?</h3>
+          <ul class="option">
+            <li class="choice">
+              <button class="choose">Visual Private Node</button>
+            </li>
+            <li class="choice">
+              <button class="choose correct">Virtual Private Network</button>
+            </li>
+            <li class="choice">
+              <button class="choose">Verified Public Network</button>
+            </li>
+            <li class="choice">
+              <button class="choose">Virtual Public Network</button>
+            </li>
+          </ul>
+        </div>
+        <div class="quest-9 questions">
+          <h3 class="question">9. What is the main function of an SSD?</h3>
+          <ul class="option">
+            <li class="choice">
+              <button class="choose">To cool the CPU</button>
+            </li>
+            <li class="choice">
+              <button class="choose correct">To store data persistently</button>
+            </li>
+            <li class="choice">
+              <button class="choose">To increase internet speed</button>
+            </li>
+            <li class="choice">
+              <button class="choose">To display graphics</button>
+            </li>
+          </ul>
+        </div>
+        <div class="quest-10 questions">
+          <h3 class="question">
+            10. Which component is considered the "brain" of a computer?
+          </h3>
+          <ul class="option">
+            <li class="choice"><button class="choose">GPU</button></li>
+            <li class="choice"><button class="choose">RAM</button></li>
+            <li class="choice"><button class="choose correct">CPU</button></li>
+            <li class="choice"><button class="choose">HDD</button></li>
+          </ul>
+        </div>
+      </section>
+      <footer class="footHide">
+        <div class="btn">
+          <button class="previous">Previous</button>
+          <button class="next">Next</button>
+          <button class="Submit">Submit</button>
+          <button class="restart">Restart</button>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
